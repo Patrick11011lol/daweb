@@ -1,0 +1,31 @@
+body {
+    background-color: #313338; /* Background color */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Optional: Set a font for the text */
+}
+
+.content-container {
+    text-align: center;
+    padding: 20px; /* Add some padding to avoid content touching the edges */
+}
+
+.text {
+    color: #ffffff; /* Text color */
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center;
+    margin-bottom: 20px; /* Add some space between the images and the text */
+}
+
+.image-container img {
+    margin: 10px;
+    max-width: 99999px; /* Adjust this value to change the maximum width of the images */
+    width: 100%; /* Make images responsive */
+    height: auto;
+    border-radius:0px; /* Optional: Adds rounded corners to images */
+}
